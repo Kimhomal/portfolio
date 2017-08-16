@@ -1,0 +1,17 @@
+.masthead.segment {
+  min-height: 600px;
+  padding: 1em 0em; }
+  .masthead.segment a.toc {
+    display: none !important; }
+
+.masthead h1.ui.header {
+  margin-top: 2.5em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal; }
+
+@media (max-width: 700px) {
+  .masthead.segment a {
+    display: none !important; }
+    .masthead.segment a.toc {
+      display: inline-block !important; } }
